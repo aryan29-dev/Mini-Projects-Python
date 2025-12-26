@@ -1,8 +1,6 @@
 import random
 
-
 def roll(dice, sel):
-
     if sel is None:
         for i in range(5):
             dice.append(random.randint(1, 6))
